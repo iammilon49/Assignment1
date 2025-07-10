@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* Logo Font */
+.Logo-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 34px;
+  color: #4E47FF;
+}
+
+/* Multiple Uses Button */
+.btn-common{
+    background-color: #4E47FF;
+    color: #Fff;
+    padding: 12px 36px;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    text-shadow: none;
+    border: none;
+}
+
+
+
+
+/* Nav style */
+.Navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
