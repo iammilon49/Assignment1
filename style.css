@@ -153,3 +153,50 @@
     margin-left: auto;
 }
 
+.title{
+    text-align: center;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.Productive{
+
+    margin: 0px 159px 137px 141px;
+    background-color: #E4E6FF;
+    padding: 50px 80px;
+    border-radius: 24px;
+    
+
+}
+
+    
+
+.Productive-users{
+
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.Stats{
+
+    font-family: inter;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+
+}
+
+.sub-stats {
+
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 50%;
+
+
+}
