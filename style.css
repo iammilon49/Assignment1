@@ -11,6 +11,14 @@
   font-style: normal;
   font-size: 34px;
   color: #4E47FF;
+
+  /* Primary-Font */
+  .raleway-font {
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
 }
 
 /* Multiple Uses Button */
@@ -24,8 +32,17 @@
     text-shadow: none;
     border: none;
 }
+.btn-common:hover{
+    cursor: pointer;
+    background-color: black;
+}
 
+.bg-img{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
 
 /* Nav style */
@@ -34,5 +51,52 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 0px 150px;
+    padding: 50px 0px;
+}
+
+.container{
+
+    text-align: center;
+    padding: 158px 0px 200px 0px;
+    font-size: 65px;
+    font-weight: bold;
+
+}
+
+.container-h2{
+
+   font-family: raleway;
+   text-align: center;
+}
+
+
+.btn-common-2{
+    width: 174px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: #Fff;
+    padding: 12px 36px;
+    border-radius: 10px;
+    text-shadow: none;
+    border: none;
+
+}
+
+.btn-common-2:hover{
+
+    cursor: pointer;
+    background-color: black;
+
+}
+
+/* Header Part Close   */
+
+/* Action Section Start */
+
+.Action{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px 116px 141px;
 }
